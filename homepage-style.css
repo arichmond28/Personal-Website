@@ -1,0 +1,71 @@
+html {
+  background: rgb(225, 225, 225);
+}
+
+body {
+  margin: 20px;
+  /* Add margin to allow space for the shadow */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* Add a slight shadow */
+  background: #fff;
+  /* Background color of the body */
+}
+
+.title {
+  text-align: center;
+}
+
+.homepage-about {
+  border: 1px solid #ccc;
+  /* Border color and thickness */
+  padding: 16px;
+  /* Space inside the box */
+  background-color: #f9f9f9;
+  /* Background color */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  /* Shadow for depth */
+  max-width: 600px;
+  /* Maximum width of the box */
+  margin: 20px auto;
+  /* Center the box horizontally */
+}
+
+.homepage-image {
+  display: block;
+  float: left;
+  margin: 0 auto;
+  /* Center the image */
+  width: 50%;
+  /* Full width */
+  max-width: 300px;
+  /* Maximum width */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  /* Shadow for depth */
+
+}
+
+.header-links {
+  display: flex;
+  list-style-type: none;
+  /* Flexbox layout */
+  justify-content: space-between;
+  margin-bottom: 16px;
+  /* Space below the links */
+}
+
+.header-button {
+  font-size: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-button:hover {
+  text-decoration: underline;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  color: transparent;
+}
